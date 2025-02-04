@@ -765,3 +765,84 @@ body, html{
 		height:200px;
 	}
 }
+
+
+
+
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+	.first--slide .slide--content h1 {
+		font-size: 3em; /* Reduce font size */
+	}
+
+	.first--slide .slide--content h2 {
+		font-size: 2.5em; /* Reduce font size */
+	}
+
+	.first--slide {
+		padding: 2em;
+	}
+
+	.slide--content {
+		padding: 2em; /* Adjust padding for smaller screens */
+		top: 40%; /* Move content slightly higher */
+	}
+
+	/* Adjust sizes of other elements */
+	.circle--stuff {
+		width: 500px;
+		height: 500px;
+	}
+
+	/* Adjust the font size and layout for the second slide */
+	.slide--content--one h1.first {
+		font-size: 4em;
+	}
+
+	.slide--content--one h2.first, 
+	.slide--content--one h2.second {
+		font-size: 3em;
+	}
+
+	/* Adjust third canvas for mobile */
+	.third--canvas .center--line h1 {
+		font-size: 3em;
+	}
+
+	.third--canvas .center--line h1 > span {
+		font-size: 2.5em;
+	}
+}
+
+@media (max-width: 480px) {
+	.first--slide .slide--content h1 {
+		font-size: 2.5em;
+	}
+
+	.first--slide .slide--content h2 {
+		font-size: 2em;
+	}
+
+	.circle--stuff {
+		width: 400px;
+		height: 400px;
+	}
+
+	.slide--content--one h1.first {
+		font-size: 3em;
+	}
+
+	.slide--content--one h2.first,
+	.slide--content--one h2.second {
+		font-size: 2.5em;
+	}
+
+	.third--canvas .center--line h1 {
+		font-size: 1em;
+	}
+	.content h2 {
+		font-size: 1.5em;
+	}
+}
+
